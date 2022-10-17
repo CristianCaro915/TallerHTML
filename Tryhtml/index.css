@@ -1,0 +1,56 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item {
+    padding: 3px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background: #b2b2b2;
+    border-radius: 5px;
+}
+
+.contenedor-pie {
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    color: gray;
+}
+
+.informacion {
+    display: flex;
+    height: 40px;
+    width: 100vw;
+    align-items: center;
+    border-top: 1px solid #424242;
+}
+
+.item-pie {
+    margin: 5px;
+    transition: 300ms;
+    text-decoration: none;
+    color: gray;
+}
+
+.item-pie:hover {
+    color: black;
+}
+
+.pais {
+    height: 30px;
+}
+.medio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;  
+}
+.buscador{
+    border-radius: 40px;
+    color: black;
+    width: 400px;
+    height: 40px;
+}
