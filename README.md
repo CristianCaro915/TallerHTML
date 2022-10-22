@@ -1,2 +1,2 @@
-# TallerHTML
+# TallerHTML & TypeScript
 SW taller
